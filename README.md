@@ -2,8 +2,6 @@
 
 > **Engaging preschool learning resources!** ✨
 
-![MiniMinds Banner](https://via.placeholder.com/800x200/6B46C1/FFFFFF?text=MiniMinds:+Preschool+Learning+Resources)
-
 ## 🌟 About Mini Minds
 
 Mini Minds is a platform designed to connect educators and parents with  preschool learning resources. 🔍
@@ -174,6 +172,12 @@ Mini Minds is a platform designed to connect educators and parents with  prescho
 | **Cloudinary**    | Image uploads  | [cloudinary.com](https://cloudinary.com) - Free tier available |
 | **Google Gemini** | AI features    | [Google AI Studio](https://makersuite.google.com/app/apikey)   |
 | **PostgreSQL**    | Database       | [Neon](https://neon.tech) or any PostgreSQL provider           |
+
+## �📸 Screenshots
+
+![Home Page](./frontend/public/homepage.png)
+![Resource Details](./frontend/public/detail.png)
+![Admin Dashboard](./frontend/public/dashboard.png)
 
 ## 🤝 Contributing
 

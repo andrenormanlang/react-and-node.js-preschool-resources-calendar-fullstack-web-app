@@ -286,37 +286,43 @@ const ModalCard = ({
             <VStack align="flex-start" minW="150px" mb={2}>
               <HStack>
                 <Icon as={FaLayerGroup} color="purple.500" />
-                <Text fontWeight="semibold" color={metadataColor}>
+                <Text fontWeight="semibold" color={textColor}>
                   Type:
                 </Text>
               </HStack>
-              <Text ml={6}>{resource.type}</Text>
+              <Text ml={6} color={textColor}>
+                {resource.type}
+              </Text>
             </VStack>
 
             <VStack align="flex-start" minW="150px" mb={2}>
               <HStack>
                 <Icon as={FaBookOpen} color="green.500" />
-                <Text fontWeight="semibold" color={metadataColor}>
+                <Text fontWeight="semibold" color={textColor}>
                   Subject:
                 </Text>
               </HStack>
-              <Text ml={6}>{resource.subject}</Text>
+              <Text ml={6} color={textColor}>
+                {resource.subject}
+              </Text>
             </VStack>
 
             <VStack align="flex-start" minW="150px" mb={2}>
               <HStack>
                 <Icon as={FaChild} color="orange.500" />
-                <Text fontWeight="semibold" color={metadataColor}>
+                <Text fontWeight="semibold" color={textColor}>
                   Age Group:
                 </Text>
               </HStack>
-              <Text ml={6}>{resource.ageGroup}</Text>
+              <Text ml={6} color={textColor}>
+                {resource.ageGroup}
+              </Text>
             </VStack>
           </HStack>
 
           {resource.userId && (
             <Box>
-              <Text fontWeight="semibold" color={metadataColor}>
+              <Text fontWeight="semibold" color={textColor}>
                 Created by:
                 <Badge ml={2} colorScheme="blue">
                   {resource.user
