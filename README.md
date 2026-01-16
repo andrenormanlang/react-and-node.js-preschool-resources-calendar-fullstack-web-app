@@ -175,14 +175,6 @@ Mini Minds is a platform designed to connect educators and parents with  prescho
 | **Google Gemini** | AI features    | [Google AI Studio](https://makersuite.google.com/app/apikey)   |
 | **PostgreSQL**    | Database       | [Neon](https://neon.tech) or any PostgreSQL provider           |
 
-**⚠️ Security Note**: Never commit your `.env` files to Git. Only use `.env.example` templates.
-
-## �📸 Screenshots
-
-![Home Page](https://via.placeholder.com/400x300?text=Colorful+Home+Page)
-![Resource Details](https://via.placeholder.com/400x300?text=Resource+Details)
-![Admin Dashboard](https://via.placeholder.com/400x300?text=Admin+Dashboard)
-
 ## 🤝 Contributing
 
 If you have ideas for new features or find any bugs:
